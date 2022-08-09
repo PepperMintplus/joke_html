@@ -1,0 +1,33 @@
+.text-3d-wrap {
+  position: relative;
+
+}
+
+
+.text-3d-main {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(red, blue);
+  padding-right: 20rem;
+  padding-left: 20rem;
+  box-shadow: 
+  2px 2px 0 #929292,
+  4px 4px 0 #9e9e9e,
+  6px 6px 0 #636363,
+  8px 8px 0 #424242,
+  10px 10px 0 #353535,
+  -2px -2px 0 #929292;
+}
+
+html {
+  background: linear-gradient(to bottom right, rgb(255, 174, 0), rgb(192, 255, 220)) no-repeat center fixed;
+
+}
+
